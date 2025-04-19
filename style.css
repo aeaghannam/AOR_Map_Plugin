@@ -1,0 +1,24 @@
+
+.hoverable-path {
+    fill: #f6f6f6;
+    cursor: pointer;
+    transition: fill 0.5s ease-in-out;
+}
+
+.hoverable-path:hover {
+    fill: rgba(7, 25, 56, 0.77);
+}
+
+.tooltip {
+    position: absolute;
+    background-color: rgba(7, 25, 56, 0.77);
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    pointer-events: none;
+    white-space: nowrap;
+    display: none;
+    z-index: 1000;
+}
+
